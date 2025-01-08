@@ -1,0 +1,118 @@
+<html>
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .gradient-bg {
+            width: 100%;
+            height: 100vh;
+            background: linear-gradient(45deg, #000000, #000000, #000000,#191970,#FFFAFA,#191970, #000000, #000000, #000000);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+        }
+
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+}
+        
+.title {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-family: Arial, sans-serif;
+            font-size: 5rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+position: relative;
+top:-20vh;
+top: 0vh;
+        }
+ .site {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-family: Arial, sans-serif;
+            font-size: 2rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+position: absolute;
+top:34px;
+left:930px;
+        }
+
+        .content {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-family: Arial, sans-serif;
+            font-size: 2rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+position: relative;
+top: 85px;
+right:320px;
+        }
+.register-btn{
+      background: transparent;
+      color: white;
+      border: 2px solid white;
+      padding: 20px 40px;
+      font-size: 1.2em;
+      border-radius: 50px;
+      cursor: pointer;
+      margin-top: 6em;
+  
+      transition: all 0.3s;
+      position: relative;
+top: -40px;
+left: -175px;
+      overflow: hidden;
+      text-decoration: none; /* Added for link styling */
+    }
+       .register-btn:hover {
+      background: white;
+      color: #0a192f;
+      transform: scale(1.05);
+    }
+.notes {
+position: fixed;
+top:700px;
+left:10px;
+font-size: 1rem;
+}
+    </style>
+</head>
+<body>
+    <div class="gradient-bg">
+ <div class="title">
+            Competify
+        <div class="site">
+            .net
+ <div class="content">
+            Register Now
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSdqCmWDd-C4yfS0aoPPrWyh-dC_OjWQMO36esprRC8-l2sX_A/viewform?usp=dialog" 
+       target="_blank" 
+       class="register-btn">
+      Join
+    </a>
+<div class="notes">
+This site is on development. event and excitement coming soon!
+        </div>
+    </div>
+</body>
+</html>
